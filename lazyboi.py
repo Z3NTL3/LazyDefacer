@@ -4,7 +4,7 @@ import os,sys
 import asyncio
 
 # Handy tool for defacers
-
+# IDK why I did use asyncio, it does nothing it this code it stays SYNC :P Just for fun you know
 try:
     while True:
         gui = pyautogui.prompt(text="Enter folder name",title="Locate Folders",default=None)
